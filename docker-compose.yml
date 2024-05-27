@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  metabrain:
+    build: .
+    environment:
+      - TELEGRAM_TOKEN=your_telegram_token
+    volumes:
+      - .:/usr/src/app
+      - ./data:/data

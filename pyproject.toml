@@ -10,6 +10,7 @@ python = "^3.10"
 python-telegram-bot = "^21.1.1"
 pandas-ta = "^0.3.14b0"
 python-dotenv = "^1.0.1"
+apscheduler = "^3.10.4"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.3"
